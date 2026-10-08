@@ -1,18 +1,25 @@
-"""# Proyek Akuisisi dan Manajemen 
-Data Mata kuliah : BIFP-243 Akuisisi dan Manajemen Data 
-Nama / NIM  : .................... 
-Tujuan      : ....................   
+# Proyek Akuisisi dan Manajemen Data
 
-## Struktur Folder 
-- data/raw        : data mentah hasil akuisisi (READ-ONLY)
-- data/interim    : hasil antara (cleaning, transformasi)
-- data/processed  : dataset final siap analisis
-- notebooks       : notebook praktikum
-- src             : script Python yang dapat digunakan ulang
-- docs            : data dictionary dan metadata - reports         : laporan kualitas data
-## Cara Menjalankan Ulang 
-1. pip install -r requirements.txt
-2. Jalankan notebook di folder notebooks secara berurutan
-"""
-(ROOT / "README.md").write_text(readme, encoding="utf-8")
-print((ROOT / "README.md").read_text(encoding="utf-8")[:300])
+**Mata Kuliah:** BIFP-243 Akuisisi dan Manajemen Data  
+**Nama / NIM:** ....................  
+**Tujuan:** ....................  
+
+---
+
+## Struktur Folder
+
+* **data/raw**: Data mentah hasil akuisisi (READ-ONLY)
+* **data/interim**: Hasil antara (cleaning, transformasi)
+* **data/processed**: Dataset final siap analisis
+* **notebooks**: Notebook praktikum
+* **src**: Script Python yang dapat digunakan ulang
+* **docs**: Data dictionary dan metadata
+* **reports**: Laporan kualitas data
+
+---
+
+## Cara Menjalankan Ulang
+
+1. Install dependensi:
+   ```bash
+   pip install -r requirements.txt
