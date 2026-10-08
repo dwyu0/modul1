@@ -1,7 +1,7 @@
 # Proyek Akuisisi dan Manajemen Data
 
-**Mata Kuliah:** BIFP-243 Akuisisi dan Manajemen Data  
-**Nama / NIM:** Dewa Ayu Sarika Citra / 2501010134 
+**Mata Kuliah:** BIFP-243 Akuisisi dan Manajemen Data  <br>
+**Nama / NIM:** Dewa Ayu Sarika Citra / 2501010134 <br>
 **Tujuan:** ....................  
 
 ---
