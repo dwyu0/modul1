@@ -1,0 +1,7 @@
+Tahap,Aktivitas Utama,Contoh Tools,Risiko Jika Diabaikan
+Acquisition,"Pengumpulan data dari berbagai sumber (API, web scraping, sensor, database)","Requests, BeautifulSoup, Kaggle API","Data tidak representatif, bias, atau kehilangan informasi penting sejak awal"
+Storage,"Penyimpanan data secara aman dan terstruktur (Cloud storage, Data Lake, RDBMS)","PostgreSQL, Google Cloud Storage, SQLite","Data corrupt, hilang, atau rentan terhadap kebocoran keamanan"
+Cleaning,"Pembersihan data dari nilai yang hilang, duplikat, dan anomali/outlier","Pandas, NumPy, OpenRefine","Model machine learning menghasilkan prediksi yang salah (garbage in, garbage out)"
+Transformation,"Mengubah format, normalisasi, feature engineering, dan agregasi data","Scikit-Learn, Pandas, Dask",Format data tidak kompatibel dengan algoritma analisis yang digunakan
+Analysis,"Eksplorasi data, pemodelan statistik, dan penerapan machine learning","Jupyter Notebook, Scikit-Learn, TensorFlow",Kesimpulan analisis keliru dan keputusan bisnis menjadi salah arah
+Delivery,"Penyajian hasil melalui dashboard interaktif, laporan, atau API deployment","Streamlit, Tableau, PowerBI",Stakeholder tidak dapat memahami insight atau hasil analisis gagal diimplementasikan
